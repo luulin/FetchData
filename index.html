@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Rick and Morty</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <a href="#grid-container" class="header-link">
+        <p class="head-name">The Rick and Morty</p>
+    </a>
+</header>
+<div class="filters">
+    <select id="genderFilter">
+        <option value="" selected hidden>Filter</option>
+        <option value="all">All genders</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+</div>
+<div id="grid-container" class="grid-container"></div>
+<footer class="footer">
+    <p>Data from <a href="https://rickandmortyapi.com" target="_blank">The Rick and Morty API</a></p>
+</footer>
+
+<script src="data.js"></script>
+</body>
+</html>
